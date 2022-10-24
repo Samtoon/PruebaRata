@@ -1,0 +1,24 @@
+.free-cell {
+    border-style: solid;
+    background-color: greenyellow;
+    border-width: 1px;
+    border-color: black;
+    height: 25%;
+    width: 24%;
+}
+
+.blocked-cell {
+    border-style: solid;
+    background-color: darkgreen;
+    border-width: 1px;
+    border-color: black;
+    height: 25%;
+    width: 24%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vh;
+    height: 90vh;
+}
